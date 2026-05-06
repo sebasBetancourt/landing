@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "title": "Adeptos - Sistema de Ingresos con IA",
+    "description": "Lanza, monitorea y mejora cada flujo de trabajo con agentes de IA personalizados."
+  },
+  "navbar": {
+    "features": "Características",
+    "results": "Resultados",
+    "pricing": "Precios",
+    "howItWorks": "Cómo funciona",
+    "signIn": "Iniciar sesión",
+    "bookAudit": "Agendar Auditoría IA"
+  },
+  "hero": {
+    "badge": "Sistema de Ingresos con IA para Empresas en Crecimiento",
+    "title": "Opera cada agente de IA desde un único centro de control",
+    "subtitle": "Lanza, monitorea y mejora cada flujo de trabajo sin cambiar de herramientas. Adeptos le da a tu equipo visibilidad total y ejecución rápida en soporte, ventas y operaciones.",
+    "ctaPrimary": "Agendar Auditoría IA Gratis",
+    "ctaSecondary": "Cómo funciona",
+    "trust": {
+      "workflows": "Flujos sin código",
+      "analytics": "Analítica en tiempo real",
+      "permissions": "Permisos por roles"
+    },
+    "commandCenter": {
+      "title": "Centro de Comando Adeptos",
+      "live": "En vivo",
+      "qualifiedLeads": "Leads calificados",
+      "avgResponse": "Respuesta promedio",
+      "conversion": "Conversión",
+      "activeFlows": "Flujos Activos",
+      "automationsRunning": "Automatizaciones",
+      "successfulExecutions": "Ejecuciones exitosas",
+      "recommendation": "Recomendación de optimización lista"
+    }
+  },
+  "problem": {
+    "badge": "El Problema",
+    "title": "Diseñado para empresas en crecimiento cansadas de perder leads",
+    "subtitle": "Responde a cada pregunta. Califica cada lead. Haz seguimiento hasta que compren.",
+    "items": [
+      {
+        "title": "Tu equipo se ahoga en preguntas repetitivas.",
+        "desc": "Horas perdidas cada día respondiendo las mismas dudas en lugar de cerrar tratos."
+      },
+      {
+        "title": "Tu equipo pierde horas con personas que nunca iban a comprar.",
+        "desc": "Sin filtro de calificación, tus mejores vendedores persiguen leads no aptos."
+      },
+      {
+        "title": "Los leads se enfrían porque nadie les hace seguimiento.",
+        "desc": "Un lead que no recibe respuesta en 5 minutos tiene 21 veces menos probabilidades de calificar."
+      },
+      {
+        "title": "Después del horario laboral, tu negocio se apaga.",
+        "desc": "Las consultas a las 9 p.m. se convierten en clientes de la competencia por la mañana."
+      }
+    ]
+  },
+  "cost": {
+    "title": "Lo que estas brechas te cuestan cada mes",
+    "gapHeader": "Brecha de ingresos",
+    "costHeader": "Costo mensual",
+    "totalLeak": "Fuga de ingresos estimada total",
+    "conservativeNote": "Estos números son conservadores. Para empresas que facturan más de $50K/mes, el número real suele ser significativamente mayor.",
+    "items": [
+      { "label": "Respuestas lentas o perdidas", "cost": "$2,500+/mes" },
+      { "label": "Horas en preguntas repetitivas", "cost": "$1,500 – $3,000/mes" },
+      { "label": "Tiempo calificando leads no aptos", "cost": "$1,500+/mes" },
+      { "label": "Leads perdidos por falta de seguimiento", "cost": "$2,000+/mes" },
+      { "label": "Consultas fuera de horario sin respuesta", "cost": "$1,000+/mes" }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Cómo funciona tu Agente de Ventas IA",
+    "subtitle": "Adeptos construye un agente de IA personalizado que se conecta a tu proceso de ventas actual y maneja todo entre el primer mensaje entrante y un comprador calificado y listo para pagar que aterriza en tu calendario.",
+    "steps": [
+      { "title": "Respuesta Instantánea", "desc": "Cada lead recibe una respuesta al instante, 24/7. Sin retrasos ni conversaciones perdidas." },
+      { "title": "Responde Cada Pregunta", "desc": "Esto no es un chatbot. Es un agente de IA entrenado en todo tu negocio. Maneja conversaciones reales como lo haría tu mejor vendedor." },
+      { "title": "Califica antes del Traspaso", "desc": "Tu agente de IA califica cada conversación, filtra a los curiosos y solo envía prospectos listos para comprar a tu calendario." },
+      { "title": "Seguimiento Automatizado", "desc": "Los leads no se escapan. Tu agente de IA hace seguimiento en un horario preciso hasta que el trato avanza o se cierra." },
+      { "title": "Agenda Citas", "desc": "Mientras estás fuera, tu calendario se sigue llenando. Tu agente de IA agenda citas calificadas automáticamente, 24/7." },
+      { "title": "Cobra Depósitos", "desc": "Los compradores listos no esperan. Tu agente de IA cobra depósitos por adelantado, para que tu equipo solo hable con prospectos comprometidos." }
+    ]
+  },
+  "dashboardPreview": {
+    "badge": "Míralo en acción",
+    "subtitle": "Datos reales. Conversaciones reales. Visibilidad total en cada canal.",
+    "live": "En vivo",
+    "revenue": "Ingresos",
+    "conversion": "Conversión",
+    "escalationRate": "Tasa de escala",
+    "totalTickets": "Tickets totales"
+  },
+  "results": {
+    "badge": "Resultados Comprobados",
+    "title": "Resultados Reales de Clientes Reales",
+    "clientVoices": "Voces de clientes",
+    "whatTeamsSay": "Lo que dicen los equipos",
+    "items": [
+      { 
+        "name": "216 Maintenance", 
+        "desc": "Gestiona instalaciones para marcas como Starbucks, Amazon, Tesla y CVS en el Medio Oeste. Adeptos reemplazó sistemas de seguimiento manual con una infraestructura de IA unificada, automatizando el seguimiento de trabajos, flujos de técnicos y facturación.",
+        "tags": ["Starbucks", "Amazon", "Tesla", "CVS", "Applebee's"]
+      },
+      { 
+        "name": "Valvetronic Designs", 
+        "desc": "Marca automotriz de 8 cifras. Redujo el equipo de soporte de 20 a 5 personas. Adeptos gestiona el servicio al cliente y conversaciones de ventas de alto valor promediando $7,000+ por compra.",
+        "tags": ["Automotriz", "Ventas de alto valor", "Soporte 24/7", "Global"]
+      },
+      { 
+        "name": "Proyectamos y Edificamos", 
+        "desc": "Constructora colombiana y de desarrollo inmobiliario: promueven, comercializan y construyen viviendas y obras civiles para diferentes segmentos del mercado. Adeptos mantiene cada respuesta alineada con el inventario en vivo, especificaciones de unidades y plazos de entrega.",
+        "tags": ["Desarrollo inmobiliario", "Construcción", "Planeación urbana", "Colombia"]
+      },
+      { 
+        "name": "FR Hotel", 
+        "desc": "Hospitalidad en Ibagué: una experiencia completa para el huésped con 42 habitaciones y suites, restaurante Nativo, jardín de cócteles en la azotea y spa Ikigai. Adeptos responde preguntas de reserva, categorías de habitaciones y detalles de servicios las 24 horas para que la recepción pueda enfocarse en los huéspedes.",
+        "tags": ["Hotel", "Restaurante y bar", "Spa", "Ibagué", "Colombia"]
+      }
+    ],
+    "testimonials": [
+      {
+        "id": "216",
+        "author": "Líder de operaciones",
+        "company": "216 Maintenance",
+        "text": "Antes de Adeptos, los avisos fuera de horario se quedaban en el buzón de voz. Ahora el agente captura el alcance, los códigos del sitio y el nivel de SLA—nuestros coordinadores comienzan el lunes con órdenes de trabajo estructuradas en lugar de jugar al teléfono roto."
+      },
+      {
+        "id": "valve-brandon",
+        "author": "Brandon S.",
+        "company": "Valvetronic Designs",
+        "text": "¡Conseguí este escape para mi Ferrari 458 y no podría estar más feliz! El sonido es absolutamente increíble y la calidad es de primer nivel. Adeptos me ayudó a obtener respuestas rápidas — sin esperas, sin rodeos."
+      },
+      {
+        "id": "valve-justin",
+        "author": "Justin B.",
+        "company": "Valvetronic Designs",
+        "text": "Valvetronic no solo ofrece sistemas de escape excepcionales, sino que también tienen el mejor equipo de soporte con el que he tratado. Cada pregunta respondida al instante, incluso a medianoche."
+      },
+      {
+        "id": "proyectamos",
+        "author": "Equipo comercial",
+        "company": "Proyectamos y Edificamos",
+        "text": "El agente de Adeptos absorbió nuestro portafolio completo de proyectos—fases, mix de unidades, rangos de precios y fechas de entrega—para que los prospectos obtengan respuestas precisas 24/7. Los leads calificados aumentaron drásticamente; nuestros representantes ahora intervienen cuando alguien ya entiende la oferta en lugar de repetir la misma charla del folleto.",
+        "href": "https://www.proyectamosyedificamos.com/",
+        "hrefLabel": "proyectamosyedificamos.com"
+      },
+      {
+        "id": "frhotel",
+        "author": "Líder de experiencia del huésped",
+        "company": "FR Hotel",
+        "text": "Los huéspedes preguntaban las mismas cosas a las 11 p.m.—tipos de habitaciones, horarios de Nativo, reservas de spa, cómo llegar al bar de la azotea. El agente de Adeptos habla desde nuestra cuadrícula real de habitaciones, por lo que las consultas se convierten en pasos siguientes seguros en lugar de interminables 'revisaremos y le devolveremos la llamada'.",
+        "href": "https://frhotel.co/",
+        "hrefLabel": "frhotel.co"
+      }
+    ]
+  },
+  "marketOpportunity": {
+    "competitorsNote": "Tus competidores aún no están usando esto. Eso no durará.",
+    "adoptionText": "Estamos en la etapa temprana de adopción de IA Agéntica. Las empresas que se muevan ahora construirán una ventaja en velocidad, eficiencia e ingresos que los rezagados no podrán cerrar.",
+    "birthOfInternet": "Esto es como el nacimiento del Internet a principios de los 2000.",
+    "socialMedia": "O las redes sociales en los 2010.",
+    "timeToAct": "Ahora es el momento de actuar, antes de que sea demasiado tarde.",
+    "cta": "Agendar Auditoría IA Gratis →",
+    "chart": {
+      "title": "Empresas usando IA en el último año",
+      "segments": [
+        "IA Generativa Básica (ChatGPT etc.)",
+        "Chatbots de IA (Manychat, Zapier)",
+        "Automatizaciones de IA (N8N, Make)",
+        "Sistemas agénticos como Adeptos",
+        "Sin uso"
+      ],
+      "center": {
+        "line1": "usando sistemas",
+        "line2": "como Adeptos"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Niveles de Inversión",
+    "subtitle": "Sin importar dónde estés en tu camino de crecimiento, tenemos un plan que encaja.",
+    "guarantee": "Cada nivel está diseñado para pagarse solo en los primeros 90 días.",
+    "starter": {
+      "title": "AI Starter",
+      "tagline": "Para empresas que comienzan con IA",
+      "setup": "$997 una vez",
+      "ready": "Listo en 24–72 horas",
+      "guarantee": "Si tu agente de IA no se paga solo en 30 días, el próximo mes es gratis.",
+      "features": [
+        "Agente de chat de IA personalizado en subdominio",
+        "Entrenado en tus servicios, FAQs, precios y ofertas",
+        "Respuesta de leads instantánea 24/7",
+        "Captura y calificación básica de leads",
+        "Integración simple de agenda",
+        "Acceso al dashboard de Adeptos"
+      ]
+    },
+    "growth": {
+      "title": "AI Growth",
+      "tagline": "Para empresas listas para escalar",
+      "setup": "$4,997 una vez",
+      "ready": "Listo en 5–7 días",
+      "guarantee": "Si tu agente de IA no genera $2,000 en valor en 30 días, el próximo mes es gratis.",
+      "features": [
+        "Todo lo de Starter",
+        "Integración completa con CRM",
+        "Despliegue multicanal (WhatsApp, IG, FB, Web, Email, Llamadas)",
+        "Secuencias de seguimiento automatizadas",
+        "Integración de procesador de pagos",
+        "Capacitación del equipo"
+      ]
+    },
+    "enterprise": {
+      "title": "AI Enterprise",
+      "tagline": "Para empresas que construyen infraestructura de IA completa",
+      "setup": "$6,500–$20,000+",
+      "ready": "Listo en 4–6 semanas",
+      "guarantee": "Optimizamos sin costo adicional hasta que rinda. Sin límite de revisiones.",
+      "features": [
+        "Todo lo de Growth",
+        "Totalmente personalizado a tus flujos y objetivos",
+        "Integraciones profundas (CRM, Ads, herramientas internas, APIs)",
+        "Calificación avanzada de leads y gestión de pipeline",
+        "Agentes de IA en Ventas, Servicio, Marketing y Admin",
+        "Dashboard de orquestación de agentes",
+        "Sitio web, dominio e integraciones ERP personalizadas"
+      ]
+    },
+    "mostPopular": "Más Popular",
+    "cta": "Empezar",
+    "ctaEnterprise": "Agendar Llamada"
+  },
+  "bonus": {
+    "title": "Kit de Aceleración de Negocios",
+    "subtitle": "Valor Total: $1,188 — Incluido gratis al invertir en cualquier plan.",
+    "items": [
+      { "title": "Playbook de Scripts de Ventas Personalizados", "value": "$497", "desc": "15+ scripts de ventas palabra por palabra adaptados a tu industria." },
+      { "title": "Playbook de Lead Magnets Personalizados", "value": "$197", "desc": "5 plantillas de lead magnets listas para usar en tu nicho." },
+      { "title": "Reporte de Análisis de Competencia", "value": "$297", "desc": "Desglose detallado de cómo tus principales competidores manejan ventas y soporte." },
+      { "title": "SOPs para Equipos de Ventas Asistidos por IA", "value": "$197", "desc": "Procedimientos estándar para que tu equipo trabaje junto al agente de IA." },
+      { "title": "Guía de Entrenamiento de Agentes IA", "value": "GRATIS", "desc": "PDF de inicio rápido para actualizar la base de conocimientos de tu agente." }
+    ]
+  },
+  "process": {
+    "title": "Empecemos a construir tu Sistema de IA Hoy",
+    "readyLabel": "Listo en",
+    "whatHappensNext": "¿Qué pasa después?",
+    "steps": [
+      "Agenda tu auditoría de IA gratis",
+      "Mapeamos tu proceso actual e identificamos oportunidades",
+      "Recibes un plan de implementación claro",
+      "Empezamos a construir tu Sistema de Ingresos por IA"
+    ],
+    "noContracts": "Sin contratos a largo plazo. Si no rinde, seguimos optimizando hasta que lo haga."
+  },
+  "finalCta": {
+    "title": "Agenda tu Auditoría IA gratis Hoy",
+    "availability1": "Solo incorporamos",
+    "availabilityHighlight": "5 nuevos clientes por mes",
+    "availability2": "para garantizar atención dedicada y resultados.",
+    "earlyAdopters": "Los primeros adoptantes ya están viendo un ROI de 3–5 veces. La ventana para ganar una ventaja competitiva se está cerrando.",
+    "cta": "Obtener mi auditoría IA",
+    "whatsAppLabel": "O escríbenos por WhatsApp:",
+    "emailLabel": "O envíanos un correo:"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "legal": {
+    "back": "Volver",
+    "lastUpdated": "Última actualización",
+    "privacy": { "title": "Política de Privacidad" },
+    "terms": { "title": "Términos de Servicio" }
+  }
+}

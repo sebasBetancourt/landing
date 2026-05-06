@@ -1,0 +1,397 @@
+/* ── Futuristic Wizard Redesign ── */
+.chatbot-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #09090b; /* Deep black background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: overlayFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; transform: scale(1.02); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.chatbot-container {
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Big ambient glow for screen 1 */
+.wizard-ambient-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: 
+    radial-gradient(circle at 10% 40%, rgba(90, 10, 255, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 30%, rgba(60, 20, 200, 0.5) 0%, transparent 40%),
+    radial-gradient(circle at 40% 40%, rgba(10, 5, 20, 1) 35%, transparent 55%);
+  z-index: 0;
+  pointer-events: none;
+  filter: blur(20px);
+}
+
+/* ── Content Wrapper ── */
+.wizard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  padding: 40px 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ── Header ── */
+.wizard-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.wizard-back-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.wizard-back-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ── Text ── */
+.wizard-header-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 16px;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.wizard-header-text p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.wizard-report-text {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  margin-bottom: 40px;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+/* ── Wizard Layout ── */
+.wizard-layout-chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+.wizard-bottom-group {
+  margin-top: auto;
+}
+
+/* ── Grid Cards ── */
+.wizard-options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.wizard-card-btn {
+  background: #0f0d15;
+  border: 1.5px solid #4a3df5;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 120px;
+}
+
+.wizard-card-btn:hover {
+  background: #1a162b;
+  border-color: #6c4af5;
+  transform: translateY(-2px);
+}
+
+.wizard-card-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #e2e2e2;
+  border: 5px solid #4a1c36;
+  box-shadow: none;
+}
+
+.wizard-card-text {
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: left;
+}
+
+/* ── Bottom Input Pill ── */
+.wizard-bottom-area {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wizard-pill-input {
+  width: 100%;
+  background: #0f0d1b;
+  border: 1.5px solid #4a3df5;
+  border-radius: 40px;
+  padding: 6px 6px 6px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wizard-pill-text {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+}
+
+.wizard-pill-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #6c4af5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+}
+
+/* ── Glowing Final Action Button ── */
+.wizard-glowing-action {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.wizard-glowing-ring-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(108, 71, 255, 0.1);
+  animation: pulseRing 3s infinite ease-in-out;
+}
+
+.wizard-glowing-ring-2 {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background: rgba(108, 71, 255, 0.2);
+  animation: pulseRing 3s infinite ease-in-out 0.5s;
+}
+
+.wizard-glowing-core {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8a63ff, #4720e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0 0 30px rgba(108, 71, 255, 0.6);
+  transition: transform 0.2s;
+}
+
+.wizard-glowing-core:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulseRing {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+
+.wizard-checkout-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #8a63ff, #4720e5);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 16px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(108, 71, 255, 0.3);
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.wizard-checkout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(108, 71, 255, 0.5);
+}
+
+/* ── Lead Form Overrides for this style ── */
+.chatbot-lead-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background: transparent;
+  z-index: 10;
+  position: relative;
+}
+
+.lead-form-content {
+  width: 100%;
+  max-width: 440px;
+  animation: overlayFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.chatbot-lead-form h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+
+.chatbot-lead-form p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.lead-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lead-form-fields input,
+.lead-form-fields select {
+  background: rgba(20, 20, 25, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 18px 24px;
+  border-radius: 16px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.05rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.lead-form-fields input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.lead-form-fields input:focus,
+.lead-form-fields select:focus {
+  border-color: #6c47ff;
+  box-shadow: 0 0 0 2px rgba(108, 71, 255, 0.2);
+}
+
+.phone-group {
+  display: flex;
+  gap: 12px;
+}
+
+.phone-group select {
+  flex: 0 0 120px;
+  color: rgba(255, 255, 255, 0.7);
+  appearance: none;
+}
+
+.phone-group input {
+  flex: 1;
+}
+
+.robot-verify-btn {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 20px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(108, 71, 255, 0.1);
+  color: #a88bff;
+  border: 1px solid rgba(108, 71, 255, 0.3);
+}
+
+.robot-verify-btn:hover {
+  background: rgba(108, 71, 255, 0.2);
+  border-color: #6c47ff;
+  transform: translateY(-2px);
+}
+
+.checkbox-box {
+  width: 22px;
+  height: 22px;
+  border: 2.5px solid #6c47ff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.robot-verify-btn:active .checkbox-box {
+  background: #6c47ff;
+}

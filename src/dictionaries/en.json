@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "title": "Adeptos - AI Revenue System",
+    "description": "Launch, monitor, and improve every workflow with custom AI agents."
+  },
+  "navbar": {
+    "features": "Features",
+    "results": "Results",
+    "pricing": "Pricing",
+    "howItWorks": "How it works",
+    "signIn": "Sign in",
+    "bookAudit": "Book AI Audit"
+  },
+  "hero": {
+    "badge": "AI Revenue System for Growing Businesses",
+    "title": "Operate every AI agent from one control center",
+    "subtitle": "Launch, monitor, and improve every workflow without switching tools. Adeptos gives your team full visibility and fast execution across support, sales, and operations.",
+    "ctaPrimary": "Book Free AI Audit",
+    "ctaSecondary": "How it works",
+    "trust": {
+      "workflows": "No-code workflows",
+      "analytics": "Real-time analytics",
+      "permissions": "Role permissions"
+    },
+    "commandCenter": {
+      "title": "Adeptos Command Center",
+      "live": "Live",
+      "qualifiedLeads": "Qualified leads",
+      "avgResponse": "Avg response",
+      "conversion": "Conversion",
+      "activeFlows": "Active Flows",
+      "automationsRunning": "Automations running",
+      "successfulExecutions": "Successful executions",
+      "recommendation": "AI optimization recommendation ready"
+    }
+  },
+  "problem": {
+    "badge": "The Problem",
+    "title": "Designed for growing businesses tired of losing leads",
+    "subtitle": "Respond to every question. Qualify each lead. Follow up until they buy.",
+    "items": [
+      {
+        "title": "Your team is drowning in repetitive questions.",
+        "desc": "Hours wasted every day answering the same FAQs instead of closing deals."
+      },
+      {
+        "title": "Your team wastes hours on people that were never going to buy.",
+        "desc": "No qualification filter means your best salespeople chase unfit leads."
+      },
+      {
+        "title": "Leads go cold because nobody follows up.",
+        "desc": "A lead that doesn't hear back in 5 minutes is 21× less likely to qualify."
+      },
+      {
+        "title": "After hours, your business goes dark.",
+        "desc": "Inquiries at 9 pm become competitors' customers by morning."
+      }
+    ]
+  },
+  "cost": {
+    "title": "What these Gaps cost you Every Month",
+    "gapHeader": "Revenue gap",
+    "costHeader": "Monthly cost",
+    "totalLeak": "Total Estimated Revenue Leak",
+    "conservativeNote": "These numbers are conservative. For businesses doing $50K+/mo, the real number is often significantly higher.",
+    "items": [
+      { "label": "Missed or slow lead responses", "cost": "$2,500+/mo" },
+      { "label": "Hours spent on repetitive questions", "cost": "$1,500 – $3,000/mo" },
+      { "label": "Time wasted qualifying unfit leads", "cost": "$1,500+/mo" },
+      { "label": "Leads lost to zero follow-up", "cost": "$2,000+/mo" },
+      { "label": "After-hours inquiries with no response", "cost": "$1,000+/mo" }
+    ]
+  },
+  "howItWorks": {
+    "badge": "How Your AI Sales Agent Works",
+    "subtitle": "Adeptos builds a custom AI agent that plugs into your existing sales process and handles everything between the first inbound message and a qualified, ready-to-pay buyer landing on your calendar.",
+    "steps": [
+      { "title": "Instant Response", "desc": "Every lead gets an instant response, 24/7. No delays. No dropped conversations." },
+      { "title": "Answers Every Question", "desc": "This isn't a chatbot. It's an AI agent trained on your entire business. It handles real conversations just like your best salesperson would." },
+      { "title": "Qualifies Before Handoff", "desc": "Your AI agent qualifies every conversation, filters out time-wasters, and only sends ready-to-buy prospects to your calendar." },
+      { "title": "Automated Follow-Up", "desc": "Leads don't fall through the cracks. Your AI agent follows up on a precise schedule until the deal moves forward or closes out." },
+      { "title": "Books Appointment", "desc": "While you're offline, your calendar is still filling up. Your AI agent books qualified appointments automatically, 24/7." },
+      { "title": "Collects Deposit", "desc": "Ready buyers don't wait. Your AI agent collects deposits upfront, so your team only speaks with committed prospects." }
+    ]
+  },
+  "dashboardPreview": {
+    "badge": "See it in action",
+    "subtitle": "Real data. Real conversations. Full visibility across every channel.",
+    "live": "Live",
+    "revenue": "Revenue",
+    "conversion": "Conversion",
+    "escalationRate": "Escalation rate",
+    "totalTickets": "Total tickets"
+  },
+  "results": {
+    "badge": "Proven Results",
+    "title": "Proven Results from Real Clients",
+    "clientVoices": "Client voices",
+    "whatTeamsSay": "What teams say",
+    "items": [
+      { 
+        "name": "216 Maintenance", 
+        "desc": "Manages facilities for brands like Starbucks, Amazon, Tesla, and CVS across the Midwest. Adeptos replaced manual tracking systems with a unified AI infrastructure, automating job tracking, technician workflows, and invoicing.",
+        "tags": ["Starbucks", "Amazon", "Tesla", "CVS", "Applebee's"]
+      },
+      { 
+        "name": "Valvetronic Designs", 
+        "desc": "8-figure automotive brand. Reduced support team from 20 to 5 people. Adeptos manages customer service and high-ticket sales conversations averaging $7,000+ per purchase.",
+        "tags": ["Automotive", "High-ticket sales", "24/7 support", "Global"]
+      },
+      { 
+        "name": "Proyectamos y Edificamos", 
+        "desc": "Colombian real estate development and construction company: they promote, market, and build housing and civil works—from urban planning to retail and mixed-use—for different market segments. Adeptos keeps every answer aligned with live inventory, unit specs, and delivery timelines.",
+        "tags": ["Real estate dev", "Construction", "Urban planning", "Colombia"]
+      },
+      { 
+        "name": "FR Hotel", 
+        "desc": "Hospitality in Ibagué: a full guest experience with 42 rooms and suites (inspired by Pijao naming), Nativo restaurant, rooftop cocktail garden, and Ikigai spa. Adeptos answers booking-style questions, room categories, and amenity details around the clock so reservations and front desk can focus on in-house guests.",
+        "tags": ["Hotel", "Restaurant & bar", "Spa", "Ibagué", "Colombia"]
+      }
+    ],
+    "testimonials": [
+      {
+        "id": "216",
+        "author": "Operations lead",
+        "company": "216 Maintenance",
+        "text": "Before Adeptos, after-hours pages lived in voicemail. Now the agent captures scope, site codes, and SLA tier—our coordinators start Monday with structured work orders instead of playing phone tag."
+      },
+      {
+        "id": "valve-brandon",
+        "author": "Brandon S.",
+        "company": "Valvetronic Designs",
+        "text": "I got this exhaust for my Ferrari 458 and I could not be happier! The sound is absolutely incredible and the quality is top-notch. Adeptos helped me get answers fast — no waiting, no runaround."
+      },
+      {
+        "id": "valve-justin",
+        "author": "Justin B.",
+        "company": "Valvetronic Designs",
+        "text": "Not only does Valvetronic provide exceptional exhaust systems, but they also have the best support team I've ever dealt with. Every question answered instantly, even at midnight."
+      },
+      {
+        "id": "proyectamos",
+        "author": "Commercial team",
+        "company": "Proyectamos y Edificamos",
+        "text": "The Adeptos agent absorbed our full project portfolio—phases, unit mixes, pricing bands, and handover dates—so prospects get precise answers 24/7. Qualified leads are up sharply; our reps now step in when someone already understands the offering instead of repeating the same brochure talk.",
+        "href": "https://www.proyectamosyedificamos.com/",
+        "hrefLabel": "proyectamosyedificamos.com"
+      },
+      {
+        "id": "frhotel",
+        "author": "Guest experience lead",
+        "company": "FR Hotel",
+        "text": "Guests were asking the same things at 11 p.m.—room types, Nativo hours, spa bookings, how to reach the rooftop bar. The Adeptos agent speaks from our real room grid and service stack, so WhatsApp and web inquiries turn into confident next steps instead of endless 'we'll check and call you back.'",
+        "href": "https://frhotel.co/",
+        "hrefLabel": "frhotel.co"
+      }
+    ]
+  },
+  "marketOpportunity": {
+    "competitorsNote": "Your competitors aren't using this yet. That won't last.",
+    "adoptionText": "We're in the early stage of Agentic AI adoption. The businesses that move now will build a lead in speed, efficiency, and revenue that late adopters won't be able to close.",
+    "birthOfInternet": "This is like the birth of the Internet in the early 2000s.",
+    "socialMedia": "Or social media in the 2010s.",
+    "timeToAct": "Now is the time to act, before it's too late.",
+    "cta": "Book Free AI Audit →",
+    "chart": {
+      "title": "Businesses using AI in the last year",
+      "segments": [
+        "Basic Generative AI (ChatGPT etc.)",
+        "AI Chatbots (Manychat, Zapier)",
+        "AI Automations (N8N, Make)",
+        "Agentic systems like Adeptos",
+        "No Usage"
+      ],
+      "center": {
+        "line1": "using systems",
+        "line2": "like Adeptos"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Investment Tiers",
+    "subtitle": "No matter where you are in your growth journey, we have a plan that fits.",
+    "guarantee": "Every tier is designed to pay for itself within the first 90 days.",
+    "starter": {
+      "title": "AI Starter",
+      "tagline": "For companies starting with IA",
+      "setup": "$997 one-time",
+      "ready": "Ready in 24–72 hours",
+      "guarantee": "If your AI agent doesn't pay for itself in 30 days, next month is free.",
+      "features": [
+        "Custom AI chat agent on subdomain",
+        "Trained on your services, FAQs, pricing, and offers",
+        "24/7 instant lead response",
+        "Basic lead capture and qualification",
+        "Simple scheduling integration",
+        "Access to Adeptos dashboard"
+      ]
+    },
+    "growth": {
+      "title": "AI Growth",
+      "tagline": "For companies ready to scale",
+      "setup": "$4,997 one-time",
+      "ready": "Ready in 5–7 days",
+      "guarantee": "If your AI agent doesn't generate $2,000 in value within 30 days, next month is free.",
+      "features": [
+        "Everything in Starter",
+        "Full CRM integration",
+        "Multichannel deployment (WhatsApp, IG, FB, Web, Email, Calls)",
+        "Automated follow-up sequences",
+        "Payment processor integration",
+        "Team training"
+      ]
+    },
+    "enterprise": {
+      "title": "AI Enterprise",
+      "tagline": "For companies building complete AI infrastructure",
+      "setup": "$6,500–$20,000+",
+      "ready": "Ready in 4–6 weeks",
+      "guarantee": "We optimize at no additional cost until it performs. No cap on revisions.",
+      "features": [
+        "Everything in Growth",
+        "Fully customized to your workflows and goals",
+        "Deep integrations (CRM, Ads, internal tools, APIs)",
+        "Advanced lead qualification and pipeline management",
+        "AI agents across Sales, Service, Marketing, and Admin",
+        "Agent orchestration dashboard",
+        "Custom website, domain, and ERP integrations"
+      ]
+    },
+    "mostPopular": "Most Popular",
+    "cta": "Get Started",
+    "ctaEnterprise": "Book a Call"
+  },
+  "bonus": {
+    "title": "Business Acceleration Kit",
+    "subtitle": "Total Value: $1,188 — Included free when you invest in any plan.",
+    "items": [
+      { "title": "Playbook of Personalized Sales Scripts", "value": "$497", "desc": "15+ word-for-word sales scripts tailored to your industry." },
+      { "title": "Playbook of Personalized Lead Magnets", "value": "$197", "desc": "5 ready-to-use lead magnet templates customized for your niche." },
+      { "title": "Competitor Analysis Report", "value": "$297", "desc": "Detailed breakdown of how your top competitors handle sales and support." },
+      { "title": "SOPs for AI-Assisted Sales Teams", "value": "$197", "desc": "Standard procedures for your team to work alongside the AI agent." },
+      { "title": "AI Agent Training Guide", "value": "FREE", "desc": "Quick-start PDF to update your agent's knowledge base." }
+    ]
+  },
+  "process": {
+    "title": "Let's start building your AI System Today",
+    "readyLabel": "Ready in",
+    "whatHappensNext": "What Happens Next:",
+    "steps": [
+      "Book your free AI Audit",
+      "We map your current process and identify opportunities",
+      "You receive a clear implementation plan",
+      "We start building your AI Revenue System"
+    ],
+    "noContracts": "No long-term contracts. If it doesn't perform, we continue optimizing until it does."
+  },
+  "finalCta": {
+    "title": "Book your free AI Audit Today",
+    "availability1": "We only onboard",
+    "availabilityHighlight": "5 new clients per month",
+    "availability2": "to ensure dedicated attention and results.",
+    "earlyAdopters": "Early adopters are already seeing 3–5× ROI. The window to gain a competitive edge is closing.",
+    "cta": "Book My AI Audit Now",
+    "whatsAppLabel": "Or WhatsApp us:",
+    "emailLabel": "Or email us:"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "legal": {
+    "back": "Back",
+    "lastUpdated": "Last updated",
+    "privacy": { "title": "Privacy Policy" },
+    "terms": { "title": "Terms of Service" }
+  }
+}
